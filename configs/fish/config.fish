@@ -14,22 +14,28 @@
 
 
 
-# Alias's
-# ----------------------
+##### Alias's #####
+
+#---------------------#
+
+#Dnf alias
 alias install="sudo dnf install"
 alias search="dnf search"
 alias update="sudo dnf update"
 alias upgrade="sudo dnf upgrade"
 alias remove="sudo dnf remove"
 alias autoremove="sudo dnf autoremove"
+
+#ls alias
 alias ls="lsd"
 alias lsa="ls -a"
-alias fastfetch="fastfetch --config /media/files/dotfiles/fastfetch/config.jsonc"
 alias celar="clear"
-alias gitupdate="git push"
-alias gitadd="git add"
-alias gitcommit="git commit -m"
 
-# Remove's fish_greeting
-# --------------------
+#git alias
+alias gitupdate="git push"
+alias gitadd="git add ."
+alias gitcom="git commit -m"
+#---------------------#
+
+#Remove's Greeting
 set fish_greeting
