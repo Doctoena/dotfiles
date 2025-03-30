@@ -11,12 +11,13 @@
 ###                  \     \___(  <_> )   |  \  |  |  / /_/  >
 ###                   \______  /\____/|___|  /__|  |__\___  /
 ###                          \/            \/        /_____/
-
+###
+### By Doctoena
 
 
 ##### Alias's #####
 
-#---------------------#
+#-------------------------------#
 
 #Dnf alias
 alias install="sudo dnf install"
@@ -28,15 +29,17 @@ alias autoremove="sudo dnf autoremove"
 
 #ls alias
 alias ls="lsd"
-alias lsa="ls -a"
-alias celar="clear"
+alias lsa="lsd -a"
 
 #git alias
-alias gitupdate="git push"
+alias gitup="git push"
 alias gitadd="git add ."
 alias gitcom="git commit -m"
 
-#---------------------#
+#Misc
+alias celar="clear"
+
+#--------------------------------#
 
 #Remove's Greeting
 set fish_greeting
