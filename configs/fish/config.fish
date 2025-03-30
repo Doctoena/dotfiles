@@ -26,6 +26,9 @@ alias ls="lsd"
 alias lsa="ls -a"
 alias fastfetch="fastfetch --config /media/files/dotfiles/fastfetch/config.jsonc"
 alias celar="clear"
+alias gitupdate="git push"
+alias gitadd="git add"
+alias gitcommit="git commit -m"
 
 # Remove's fish_greeting
 # --------------------
