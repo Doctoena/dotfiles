@@ -35,6 +35,7 @@ alias celar="clear"
 alias gitupdate="git push"
 alias gitadd="git add ."
 alias gitcom="git commit -m"
+
 #---------------------#
 
 #Remove's Greeting
